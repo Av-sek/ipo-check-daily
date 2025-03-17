@@ -2,7 +2,7 @@ name: IPO Notification Script
 
 on:
   schedule:
-    - cron: '* * * * *'   # Runs daily at 10 AM
+    - cron: '*/5 * * * *' 
   workflow_dispatch:
 
 jobs:
